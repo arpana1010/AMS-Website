@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attendance Monitoring System</title>
+</head>
+<body>
+	<h1>Welcome to AMS</h1>
+	<br>
+	<hr>
+  <form action="file:///home/arpana/AMS%20code/login.html" method="post">
+    <div>
+      <label for="first-name">First Name:</label>
+      <input type="text" name="first-name" id="first-name" placeholder="John" required />
+      <label for="last-name">Last Name:</label>
+      <input type="text" name="last-name" id="last-name" placeholder="Smith" required />
+    </div>
+    
+     <div>
+        <label for="radio-choice-1">Male</label>
+        <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" />
+
+        <label for="radio-choice-2">Female</label>
+        <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2" />
+
+       <label for="radio-choice-3">Other</label>
+        <input type="radio" name="radio-choice" id="radio-choice-3" value="choice-3" />
+     </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required placeholder="your email">
+      <label for="phone">Phone:</label>
+      <input type="number" min="1000000000" max="9999999999" name="phone" id="phone" required placeholder="your phone">
+    </div>
+
+    <div>
+      <label  for="username">username</label>
+	  <input id="username" type="text" placeholder="username" name="username"/>
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" pattern=".{8,20}" placeholder="your password" required title="8 to 20 characters">
+    </div>
+    <div>
+      <label for="checkbox">I agree to the terms and conditions</label>
+      <input type="checkbox" name="checkbox" id="checkbox" />
+    </div>
+
+    <div>
+      <input type="submit" value="Submit" />
+    </div>
+  </form>  
+ </body>
+ </html>
